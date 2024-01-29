@@ -1,0 +1,12 @@
+body {
+	background-color: rgb(33, 35, 38);
+	color: rgb(239, 244, 249);
+}
+
+#animationCanvas {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+button {
+    margin-right: 5px;
+}

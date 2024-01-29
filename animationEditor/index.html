@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dot Animation Editor</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div>
+		Total Steps: <input type="number" id="totalStepsInput" value="441" min="1">
+	</div>
+    <div id="editor">
+        <canvas id="animationCanvas"></canvas>
+    </div>
+	<div>
+		<button id="rewindButton">Rewind</button>
+		<button id="playButton">Play</button>
+		<button id="prevStep">Previous Step</button>
+		<button id="nextStep">Next Step</button>
+		<button id="exportButton">Export</button>
+
+		<div>Step: <span id="currentStep">1</span> / 441</div>
+		<div>BAR: <span id="currentBar">0</span></div>
+	</div>
+
+    <script src="animationEditor.js"></script>
+</body>
+</html>

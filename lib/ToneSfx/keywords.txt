@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For ToneSfx
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ToneSfx	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setInfinite	KEYWORD2
+setSeedPin	KEYWORD2
+start   KEYWORD2
+stop    KEYWORD2
+tick    KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+isPlaying	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
